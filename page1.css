@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    border: 0;
+}
+
+
+body{
+    font-family: "Poppins";
+}
+
+header{
+    height: 100px;
+    
+}
+.navbar{
+    position: fixed;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    align-items: center;
+    cursor: pointer;
+    background-color: white;
+    z-index: 9999;
+}
+
+
+.logo{
+    padding-left: 20px;
+    font-size: 2em;
+    color: #20582A;
+}
+
+.navbar .nav-links ul{
+    display: flex;
+    align-items: center;
+}
+
+.navbar .nav-links ul li{
+    margin: 0 25px;
+
+}
+
+.navbar .nav-links ul li a{
+   color: black;
+
+}
+
+.navbar .nav-links ul li.cible {
+ border:2px solid #20582A;
+ padding: 10px 20px;
+ border-radius: 50px;
+ color: white;
+ background-color: #20582A;
+}
+
+.navbar .nav-links ul li.cible:hover {
+    border:2px solid #20582A;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #20582A;
+    background-color: white;
+   }
+
+section .container1{
+    margin-top: 150px;
+    height: 100px;
+}
+
+h1{
+    text-align: center;
+    font-size: 2.34em;
+    font-weight: 700;
+    font-family: Barlow, sans-serif;
+    color: #2b3b4a;
+}
+
+p{
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 1.4em;
+    font-style: normal;
+    font-weight: 400;
+    color: #464657;
+}
+/******************************Section 2************************************************/
+section .container2{
+    margin-top: 150px;
+    height: 500px;
+    
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* on va prendre toute la largeur disponible*/
+    margin: auto;
+    margin-left: 250px;
+    width: 100%;
+    max-width: 1200px; /*au-dessus de 1200px de largeurs le contenu est centré*/
+    grid-gap : 50px; /*espace entre  les éléments*/
+    position: relative; 
+}
+
+.card{
+    position: relative; /* les éléments vont être en absolu par rapport à card*/
+    padding-bottom: 150%;
+}
+
+.card-background{
+    background-size: cover;
+    background-position: center;
+    border-radius: 24px;
+    position:absolute; /*pour passer devant le background*/
+    left: 0; top: 0; right: 0; bottom: 0;
+    transform-origin: center; 
+    transition: .2s;
+}
+
+/*contenu des cartes*/ 
+.card-content {
+    padding: 24px;
+    position: absolute;
+    font-family: arial, sans-serif;
+  }
+
+  .card-content p {
+    
+    color: #ebfff9;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    filter: none;
+    font-size: 0.9rem;
+  }
+
+
+
+  .card-content h3 {
+    color: white;
+    font-size: 1.9rem;
+  }
+
+  /*transformation quand on passe sur les cartes*/
+
+  .card:hover .card-background {
+    transform: scale(1.05) translate(0);
+  }
+
+  
+
+  @media (min-width: 540px){
+
+    .cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 920px){
+
+    .cards{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/******************************Section 3************************************************/
+
+
+section .container3{
+    margin-top: 70px;
+    height: 600px;
+   }
+
+.container3{
+    padding: 100px;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+
+.toto{
+    margin-top: 100px;
+}
+
+.image-container {
+    flex: 0 0 20%; /* Ajustez la largeur selon vos besoins */
+    margin-right: 20px; /* Ajoute de l'espace à droite de l'image */
+}
+
+.text-container {
+    flex: 0 0 80%; /* Ajustez la largeur selon vos besoins */
+    padding: 20px;
+    padding-left:0;
+    color:  #2b3b4a;
+}
+
+/******************************Section 4************************************************/
+section .container4{
+    margin-top: 70px;
+    height: 600px;
+   
+   }
+
+   .container4{
+    padding: 180px;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.text-container .para{
+    width: 265px;
+    border:2px solid #20582A;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: white;
+    background-color: #20582A;
+    cursor: pointer;
+}
+
+.text-container .para:hover{
+    width: 265px;
+    border:2px solid #20582A;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #20582A;
+    background-color: white;
+    cursor: pointer;
+}
+
+/******************************Section 5************************************************/
+
+section .container5{
+    margin-top: 70px;
+    height: 600px;
+   
+   }
+
+   .container4{
+    padding: 180px;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+/******************************Section 6************************************************/
+
+section .container6{
+    margin-top: 300px;
+    height: 600px;
+   
+   }
+
+.image-container2{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/******************************Section 7************************************************/
+

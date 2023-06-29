@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    border: 0;
+}
+
+
+body{
+    font-family: "Poppins";
+}
+
+header{
+    height: 100px;
+    
+}
+.navbar{
+    position: fixed;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    align-items: center;
+    cursor: pointer;
+    background-color: white;
+    z-index: 9999;
+}
+
+
+.logo{
+    padding-left: 20px;
+    font-size: 2em;
+    color: #20582A
+}
+
+.navbar .nav-links ul{
+    display: flex;
+    align-items: center;
+}
+
+.navbar .nav-links ul li{
+    margin: 0 25px;
+
+}
+
+.navbar .nav-links ul li a{
+   color: black;
+
+}
+
+.navbar .nav-links ul li.cible {
+ border:2px solid #20582A;
+ padding: 10px 20px;
+ border-radius: 50px;
+ color: white;
+ background-color: #20582A;
+}
+
+.navbar .nav-links ul li.cible:hover {
+    border:2px solid #20582A;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #20582A;
+    background-color: white;
+   }
+
+section .container1{
+    margin-top: 150px;
+    height: 700px;
+}
+
+h1{
+    text-align: center;
+    font-size: 2.34em;
+    font-weight: 700;
+    font-family: Barlow, sans-serif;
+    color: #2b3b4a;
+}
+
+p{
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 1.4em;
+    font-style: normal;
+    font-weight: 400;
+    color: #464657;
+}
+
+/******************************Section 3************************************************/
+
+
+section .container3{
+    margin-top: 170px;
+    height: 200px;
+   }
+
+.container3{
+    margin-left: 150px;
+    margin-bottom: 200px;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.toto{
+    margin-top: 100px;
+}
+
+.image-container {
+    flex: 0 0 30%; /* Ajustez la largeur selon vos besoins */
+    padding: 20px;
+    margin-right: 20px; /* Ajoute de l'espace à droite de l'image */
+}
+
+.text-container {
+    flex: 0 0 70%; /* Ajustez la largeur selon vos besoins */
+    padding: 20px;
+    margin-left: 20px; /* Ajoute de l'espace à gauche du texte */
+    color:  #2b3b4a;
+}
+
+
+/******************************Section 4************************************************/
+section .container4{
+    height: 600px;
+   }
+
+.container4{
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left:50px;
+    margin-right: 50px;
+}
+
+.toto{
+    margin-top: 100px;
+}
+
+.image-container {
+    flex: 0 0 40%; /* Ajustez la largeur selon vos besoins */
+    padding: 20px;
+    margin-right: 20px; /* Ajoute de l'espace à droite de l'image */
+}
+
+.text-container {
+    flex: 0 0 60%; /* Ajustez la largeur selon vos besoins */
+    padding: 20px;
+    margin-left: 20px; /* Ajoute de l'espace à gauche du texte */
+    color:  #2b3b4a;
+}
+
+
+h3{
+    margin-top: 10px;
+    text-align: left;
+    font-size: 1.4em;
+    color: #20582A;
+    font-weight: 400;
+}
+
+.para{
+    margin-top: 0px;
+    font-size: 1.2em;
+    font-style: normal;
+    font-weight: 400;
+    color: #464657;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/******************************Section 5************************************************/
+
+section .container5{
+
+    height: 600px;
+   
+   }
+
+   .container5{
+    padding: 150px;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.arbresss{
+    border-radius: 50px;
+}
+
+/******************************Section 7************************************************/
+
